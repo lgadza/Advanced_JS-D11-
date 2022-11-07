@@ -24,7 +24,7 @@ fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=pink%20floyd", options)
     container.innerHTML = "";
 
     for (i of listOfItems.data) {
-      container.innerHTML += `<div class="card col-12 col-sm-6 col-lg-4 col-xl-3" >
+      container.innerHTML += `<div class="card col-12 col-sm-6 col-lg-4 col-xl-3 my-3" >
                                     <img src=${i.album.cover} class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h5 class="card-title">${i.album.title}</h5>                               
